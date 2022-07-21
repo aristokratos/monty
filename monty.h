@@ -95,7 +95,7 @@ void rotl(stack_t **stack, unsigned int line_count);
 void rotr(stack_t **stack, unsigned int line_count);
 
 void opcode(stack_t **stack, char *str, unsigned int line_cnt);
-
+void isascii(stack_t **stack, unsigned int line_number);
 int is_digit(char *string);
 int isnumber(char *str);
 
